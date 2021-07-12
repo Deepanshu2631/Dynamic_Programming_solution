@@ -1,6 +1,7 @@
 ///////////////   DYNAMIC PROGRAMMING ////////////
 ////  KNAPSACK   USING RECUSION ////////
 ///////   FIND MAX PROFIT  /////////
+//////////////////////////////////////////     this is solution of deepanshu kushwaha   /////////////////////////////////////
 #include<bits/stdc++.h>
 using namespace std;
 int knapsack(int w[] , int v[] , int W , int n){
@@ -25,9 +26,7 @@ int knapsack(int w[] , int v[] , int W , int n){
 int main(){
 int n;
 cin>>n;
-int w[n];
-int v[n];
-int W;
+int w[n] ,v[n] , W;
 for (int i = 0; i < n; ++i)
 	{
 		cin>>w[i];
